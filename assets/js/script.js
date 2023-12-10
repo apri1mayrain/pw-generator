@@ -41,7 +41,7 @@ if (lengthInput >= 8 && lengthInput <= 128) {
 // Alert user when password validation fails and stop function execution
 else {
   alert('Please try again. Password length must be between 8 and 128 characters.');
-  return;
+  return password = 'Please try again.';
 }
 
 // Confirm use of lowercase characters
@@ -92,7 +92,7 @@ if (lowercaseInput || uppercaseInput || numericInput || specialInput) {
 // Alert user when character type validation fails and stop function execution
 else {
   alert('Please try again. At least one character type must be confirmed.');
-  return;
+  return password = 'Please try again.';
 }
 
 /* Randomly select a confirmed character from the generator array x, or lengthInput, amount of times 
