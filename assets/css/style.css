@@ -148,6 +148,16 @@ button[disabled] {
   }
 }
 
+@media (max-width: 425px) {
+  h1 {
+    font-size: 1.8rem;
+    margin: 10px;
+  }
+  .card {
+    padding: 15px 20px;
+  }
+}
+
 @media (max-width: 375px) {
   .wrapper {
     padding-top: 15px;
@@ -167,7 +177,7 @@ button[disabled] {
     font-size: 1.6rem;
   }
   .card-header {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
   .card-header li {
     line-height: 150%;
